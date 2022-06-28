@@ -1,7 +1,7 @@
-"C:\Program Files\R\R-4.1.2\bin\Rscript.exe" "D:\МИФИ\Теория и техника программирования\2022\Экзамен\load3D.R" "D:\\МИФИ\\Теория и техника программирования\\2022\\Экзамен" "vol_struct.am" "kidney-tumor.am" "test2.json"
+"C:\Program Files\R\R-4.1.3\bin\Rscript.exe" "C:\╨Я╤А╨╛╨│╤А╨░╨╝╨╝╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡\Java\╨Ъ╤Г╤А╤Б╨░╤З\Java_Course_Final_Work\scripts\load3D.R" "C:\╨Я╤А╨╛╨│╤А╨░╨╝╨╝╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡\Java\╨Ъ╤Г╤А╤Б╨░╤З\Java_Course_Final_Work\photos" "vol_struct.am" "kidney-tumor.am" "test2.json"
 
-"C:\Program Files\R\R-4.1.2\bin\Rscript.exe" "D:\МИФИ\Теория и техника программирования\2022\Экзамен\DrawColorModel.R" "D:\\МИФИ\\Теория и техника программирования\\2022\\Экзамен"  "test2.json"
+"C:\Program Files\R\R-4.1.3\bin\Rscript.exe" "C:\╨Я╤А╨╛╨│╤А╨░╨╝╨╝╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡\Java\╨Ъ╤Г╤А╤Б╨░╤З\Java_Course_Final_Work\scripts\DrawColorModel.R" "C:\╨Я╤А╨╛╨│╤А╨░╨╝╨╝╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡\Java\╨Ъ╤Г╤А╤Б╨░╤З\Java_Course_Final_Work\json file"  "test2.json"
 
-"C:\Program Files\R\R-4.1.2\bin\Rscript.exe" "D:\МИФИ\Теория и техника программирования\2022\Экзамен\Segmentation.R" "D:\\МИФИ\\Теория и техника программирования\\2022\\Экзамен"  "test2.json" 190 4
+"C:\Program Files\R\R-4.1.3\bin\Rscript.exe" "C:\╨Я╤А╨╛╨│╤А╨░╨╝╨╝╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡\Java\╨Ъ╤Г╤А╤Б╨░╤З\Java_Course_Final_Work\scripts\Segmentation.R" "C:\╨Я╤А╨╛╨│╤А╨░╨╝╨╝╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡\Java\╨Ъ╤Г╤А╤Б╨░╤З\Java_Course_Final_Work\json file"  "test2.json" 190 4
 chcp
 pause

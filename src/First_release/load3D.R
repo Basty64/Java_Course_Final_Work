@@ -1,15 +1,16 @@
-args = commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly=TRUE)
 
+args <- c("C:/Test/photos/", "C:/Test/photos/vol_struct.am", "C:/Test/photos/kidney-tumor.am", "C:/Test/photos/test2.json")
 library(nat)
 library(jsonlite)
 
 if (length(args)<4) {
   stop("Non all argument was mention (input file).n", call.=FALSE)
 } else  {
-  WD_PATH = args[1]
-  vol_struct_file = args[2]
-  kidney_tumor_file = args[3]
-  JSON_PATH = args[4]
+  WD_PATH <- args[1]
+  vol_struct_file <- args[2]
+  kidney_tumor_file <- args[3]
+  JSON_PATH <- args[4]
 }
 setwd(WD_PATH)
 
@@ -45,7 +46,7 @@ N1 <- dim(vol_struct_full)
 N2 <- dim(kidney_tumor_full)
 
 if (any(N1 != N2)){
-  e <- simpleError(message = "┬ яхЁхфрээ√ї Їрщырї эхёютярфр■∙шх шчьхЁхэш ")
+  e <- simpleError(message = "В переданных файлах несовпадающие измерения")
   stop(e)
 } 
 Tumor <- array(data = -1000,dim = N1)
