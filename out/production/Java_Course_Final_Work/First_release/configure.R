@@ -1,0 +1,6 @@
+install.packages("jsonlite")
+install.packages("nat")
+install.packages("reshape2")
+install.packages("simecol")
+install.packages("plyr")
+install.packages("ggplot2")
